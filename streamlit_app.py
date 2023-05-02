@@ -43,8 +43,6 @@ date = available_models[-1][35:45]
 
 st.sidebar.write(f"Date : {date}")
 
-topicsFile = f"{rootPath}{dataPath}/topics_{date}.parquet"
-predsFile = f"{rootPath}{dataPath}/preds_{date}.parquet"
-modelFile = f"{rootPath}{modelPath}/bertopic_{date}.pkl"
+
 
 
