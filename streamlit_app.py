@@ -109,7 +109,7 @@ d = {'Topic': topics_id, 'Confidence': topics_contrib}
 search_df = pd.DataFrame(data=d)
 search_df = topics_info.merge(search_df, on='Topic')
 search_df = search_df[['Name', 'Confidence']].sort_values(by=['Confidence'], ascending=False)
-
+   
 st.write(search_df)
 
 
