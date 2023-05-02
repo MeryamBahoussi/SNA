@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 
 
@@ -8,9 +9,6 @@ import streamlit as st
 st.set_page_config(page_title = "SNA-TM", layout='wide')
 st.sidebar.markdown("SNA-TM")
 
-
-
-st.sidebar.write(f"Date : {date}")
 
 
 
