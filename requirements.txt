@@ -1,0 +1,9 @@
+scikit-learn==0.22.2.post1
+azure-storage-blob
+bertopic
+streamlit
+snowflake-connector-python
+plotly
+datetime
+pandas
+configparser
