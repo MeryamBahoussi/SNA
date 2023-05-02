@@ -1,5 +1,5 @@
 import streamlit as st
-from azure.storage.blob import BlobServiceClient
+# from azure.storage.blob import BlobServiceClient
 import pandas as pd
 from io import BytesIO
 import pickle
