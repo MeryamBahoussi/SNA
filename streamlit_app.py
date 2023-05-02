@@ -123,5 +123,5 @@ st.plotly_chart(model.visualize_topics())
 #############################################
 # Topics hierarchy
 #############################################
-st.header("Topics hierarchy")
+st.header("Topics hierarchy")  
 st.plotly_chart(model.visualize_hierarchy())
